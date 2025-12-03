@@ -1,0 +1,74 @@
+* {            
+        box-sizing: border-box;            
+        margin: 0;            
+        padding: 0;            
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       }
+        body {            
+            background-color: #f0f8f0;            
+            color: #333;            
+            line-height: 1.6;            
+            padding: 20px;            
+            max-width: 1200px;            
+            margin: 0 auto;       
+       }
+         header {            
+            background: linear-gradient(to right, #2e7d32, #4caf50);            
+            color: white;            
+            padding: 30px;            
+            text-align: center;            
+            border-radius: 10px;            
+            margin-bottom: 30px;            
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+        }   
+         h1{
+             font-size: 2.5rem;            
+             margin-bottom: 10px;
+         }
+           h2 {            
+            text-align: center;            
+            margin: 30px 0; 
+       } 
+        .introduccion {            
+            background-color: #e8f5e9;            
+            padding: 25px;            
+            border-left: 5px solid #388e3c;            
+            margin-bottom: 30px;            
+            border-radius: 5px;        
+        } 
+         .contenedor-plantas {            
+            display: flex;            
+            flex-wrap: wrap;            
+            gap: 20px;            
+            justify-content: center;           
+             margin-bottom: 30px;        
+            }   
+             .planta {            
+                width: 300px;            
+                padding: 20px;           
+                 border-radius: 8px;            
+                 box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);            
+                 transition: transform 0.3s ease 
+            } 
+          .planta:hover {            
+            transform: translateY(-5px);
+          }  
+          .planta h3 {           
+             color: #2e7d32;            
+             margin-bottom: 15px;           
+              border-bottom: 2px solid #c8e6c9;            
+              padding-bottom: 8px;        }
+          .planta img {           
+             width: 100%;            
+             height: 180px;            
+             object-fit: cover;            
+             border-radius: 5px;            
+             margin-bottom: 15px;        
+            }                 
+           .caja-content {           
+               background-color: #fffde7;            
+                border: 3px dashed #fbc02d;            
+               box-sizing: content-box;           
+                width: 300px;           
+                padding: 20px;        
+                }          
